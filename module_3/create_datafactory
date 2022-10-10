@@ -14,7 +14,7 @@ Set-AzureRmContext -SubscriptionId $SubscriptionId
 Register-AzureRmResourceProvider -ProviderNamespace Microsoft.DataFactory
 
 # DEFINE RESOURCE GROUP NAME AND LOCATION PARAMETERS
-$resourceGroupName = "cto_ignite"
+$resourceGroupName = "my_resource_group"
 $rglocation = "West US 2"
 
 # CREATE AZURE DATA FACTORY
